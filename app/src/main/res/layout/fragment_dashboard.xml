@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="50dp">
+		
+		<Spinner
+			android:id="@+id/spinnerYear"
+			android:layout_width="150dp"
+			android:layout_height="50dp"
+			android:drawSelectorOnTop="true"
+			/>
+		
+		<Spinner
+			android:id="@+id/spinnerMonth"
+			android:layout_width="150dp"
+			android:layout_height="50dp"
+			android:drawSelectorOnTop="true"
+			/>
+		
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="100dp"
+			android:layout_height="50dp"
+			android:text="search"/>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1">
+		
+		<ListView
+			android:id="@+id/listView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+			/>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="5">
+	</LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
